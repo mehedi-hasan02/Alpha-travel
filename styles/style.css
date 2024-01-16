@@ -37,7 +37,7 @@ nav >ul li a{
     text-decoration: none;
     margin-right: 50px;
 }
-#dot-icon{
+.dot-icon{
     display:none;
 }
 nav span{
@@ -290,6 +290,18 @@ nav span{
     color: #5A5A5D;
     line-height: 26px;
 }
+.perfect-place-img-container{
+    position: relative;
+}
+.perfect-place-img-text{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 1.7rem;
+}
 .containt-details ul{
     padding-left: 20px;
 }
@@ -350,6 +362,27 @@ nav span{
     border-radius: 8px;
     background: #FF5400;
     cursor: pointer;
+}
+.newsletter-image{
+    position: relative;
+}
+.offer{
+    color: #fff;
+    background: #FF5400;
+    width: 300px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    transform: rotate(-20deg);
+}
+.offer p{
+    font-size: 1.5rem;
+}
+.offer h4{
+    font-size: 1.8rem;
 }
 footer{
     margin-top: 100px;

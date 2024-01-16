@@ -15,6 +15,14 @@
     .agency-name{
         width: 100%;
     }
+    .dot-icon{
+        display:inline-flex;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .dot-icon a{
+    color: #424247;
+    }
     .container{
         padding-top: 0px;
     }
@@ -51,6 +59,9 @@
     .perfect-place-img{
         width: 100%;
         border-radius: 16px;
+    }
+    .perfect-place-img-text{
+        font-size: 1.25rem;
     }
     .destination-container{
         padding: 30px;
@@ -122,7 +133,11 @@
     .letter-details{
         width: 100%;
     }
-    .newsletter-image{
+    .newsletter-image
+    {
+        width: 540px;
+    }
+    .newsletter-image img{
         width: 100%;
     }
     footer{
