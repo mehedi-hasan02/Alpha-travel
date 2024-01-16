@@ -14,7 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    margin: 50px 135px 0 125px;
+    margin: 50px 135px 0 130px;
 }
 nav >div{
     display: flex;
@@ -36,6 +36,9 @@ nav >ul li a{
     font-size: 1.12rem;
     text-decoration: none;
     margin-right: 50px;
+}
+#dot-icon{
+    display:none;
 }
 nav span{
     color: #FF5400;
@@ -326,8 +329,6 @@ nav span{
     margin-top: 16px;
 }
 .news-line{
-    width: 95%;
-    height: 1px;
     background: rgba(19, 19, 24, 0.10);
     margin-top: 24px;
     margin-bottom: 30px;
@@ -384,4 +385,7 @@ footer a{
 }
 .copy-right{
     margin-top: 50px;
+}
+.hide{
+    display: none;
 }
