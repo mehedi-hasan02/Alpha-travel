@@ -13,7 +13,6 @@ header,main{
 nav{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     margin: 50px 135px 0 130px;
 }
 nav >div{
@@ -302,6 +301,50 @@ nav span{
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 1.7rem;
+}
+#pause{
+    color: #fff;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    margin-right: 2px;
+}
+#mute{
+    color: #fff;
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+    margin-right: 2px;
+}
+#expand{
+    color: #fff;
+    position: absolute;
+    right: 10%;
+    bottom: 15%;
+    margin-right: 2px;
+}
+#dot-vertical{
+    color: #fff;
+    position: absolute;
+    right: 6%;
+    bottom: 15%; 
+}
+#play-line{
+    width: 88%;
+    height: 4px;
+    color: #fff;
+    position: absolute;
+    right: 6%;
+    bottom: 11%; 
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+}
+#duration{
+    color: #fff;
+    position: absolute;
+    left: 9%;
+    bottom: 14.5%;
 }
 .containt-details ul{
     padding-left: 20px;
