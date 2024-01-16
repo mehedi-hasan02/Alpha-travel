@@ -1,8 +1,8 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
 @media screen and (max-width:600px) {
     nav{
@@ -55,6 +55,13 @@
     }
     .tour-title, .destination-title, .choose-title{
         font-size: 1.25rem;
+    }
+    .tour-image{
+        width: 100%;
+    }
+    .perfect-place-title{
+        font-size: 1.25rem;
+        width: 100%; 
     }
     .perfect-place-img{
         width: 100%;
@@ -115,10 +122,9 @@
     }
     .hotel-price-1, .hotel-price-2, .hotel-price-3{
         width: 70%;
-        height: 350px;
-        top: 300px;
         left: 60px;
-        padding: 20px;
+        bottom: 60;
+        padding:20px 50px;
     }
     .time-date{
         flex-wrap: wrap;
@@ -133,12 +139,25 @@
     .letter-details{
         width: 100%;
     }
+    .letter-description{
+        width: 100%;
+    }
     .newsletter-image
     {
-        width: 540px;
+        width: 100%;
     }
     .newsletter-image img{
         width: 100%;
+    }
+    .offer{
+        padding: 20px;
+        bottom: 15%;
+    }
+    .offer p{
+        font-size: 0.8rem;
+    }
+    .offer h4{
+        font-size: 1.25rem;
     }
     footer{
         margin-top: 24px;

@@ -227,8 +227,9 @@ nav span{
     padding: 50px;
     text-align: left;
     position: absolute;
-    top: 55px;
+    bottom: 55px;
     right: 185px;
+    height: fit-content;
 }
 .hotel-price-2{
     left: 185px;
@@ -369,7 +370,8 @@ nav span{
 .offer{
     color: #fff;
     background: #FF5400;
-    width: 300px;
+    /* width: 300px; */
+    width: 45%;
     padding: 30px;
     text-align: center;
     border-radius: 16px;
